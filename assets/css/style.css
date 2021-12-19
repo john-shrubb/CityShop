@@ -18,7 +18,7 @@
 
 @font-face {
 	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Medium.ttf');
+	src: url('../fonts/Roboto-Light.ttf');
 }
 
 @font-face {
@@ -112,7 +112,7 @@
 
 .special-offer .special-offer-text h3 {
 	font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 30pt;
 	padding: 20px;
 	padding-bottom: 0;
@@ -124,4 +124,71 @@
 	font-size: 20pt;
 	padding: 20px;
 	padding-top: 0;
+}
+
+/*
+	Featured catergory section
+*/
+
+
+.featured {
+	width: 100%;
+}
+
+.featured h2 {
+	font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30pt;
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
+.featured .featured-entries {
+	display: flex;
+	flex-direction: row;
+}
+
+.featured .featured-entries .featured-entry {
+	margin: 10px;
+	margin-bottom: 0;
+	padding: 10px;
+	flex-basis: 0;
+	flex: 1 1 0px;
+
+	background-color: #f8f6f6;
+
+	/* border: 1px lightgray solid; */
+}
+
+.featured .featured-entries .featured-entry h3 {
+	font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+}
+
+.featured .featured-entries .featured-entry p {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 15pt;
+
+	font-weight: lighter;
+}
+
+.featured .featured-entries-images {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	max-width: calc(100vw - 20vw);
+}
+
+.featured .featured-entries-images div img {
+	display: block;
+	width: 100%;
+	flex-basis: 0;
+	flex: 1 1 0px;
+}
+
+.featured .featured-entries-images div {
+	margin: 10px;
+	padding: 10px;
+	margin-top: 0;
+	background-color: #f8f6f6;
 }
