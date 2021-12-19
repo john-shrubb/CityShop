@@ -62,8 +62,10 @@
 
 
 .page > .top-section > .links {
+	align-items: center;
 	display: block;
 	left: 0;
+	margin-top: auto;
 }
 
 .page > .top-section > .links a {
@@ -76,15 +78,14 @@
 	width: 50px;
 
 	background-repeat: no-repeat;
+	padding-top: 0;
 	padding: 15px;
-	margin-top: 10px;
 }
 
 .page > .top-section > .links input[type="text"] {
 	float: right;
 	width: 200px;
 	padding: 15px;
-	margin-top: 10px;
 	margin-right: 20px;
 
 	border: 2px lightgray solid;
@@ -92,4 +93,39 @@
 	outline: 0;
 
 	font-family: 'Roboto';
+}
+
+/*
+	Special offer
+*/
+
+.special-offer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.special-offer img {
+	width: 60%;
+}
+
+.special-offer .special-offer-text {
+	background-color: rgb(241, 241, 241);
+	width: 40%;
+}
+
+.special-offer .special-offer-text h3 {
+	font-family: 'Nunito', Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 30pt;
+	padding: 20px;
+	padding-bottom: 0;
+}
+
+.special-offer .special-offer-text p {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 20pt;
+	padding: 20px;
+	padding-top: 0;
 }
