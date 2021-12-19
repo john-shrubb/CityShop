@@ -32,6 +32,18 @@
 }
 
 /*
+	Very general rules to ensure small device compatability
+*/
+
+html {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+}
+
+/*
 	Page padding left and right because apparently that looks cool
 */
 
@@ -171,24 +183,7 @@
 	font-weight: lighter;
 }
 
-.featured .featured-entries-images {
+.featured .featured-entries .featured-entry img {
 	width: 100%;
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	max-width: calc(100vw - 20vw);
-}
-
-.featured .featured-entries-images div img {
-	display: block;
-	width: 100%;
-	flex-basis: 0;
-	flex: 1 1 0px;
-}
-
-.featured .featured-entries-images div {
-	margin: 10px;
-	padding: 10px;
-	margin-top: 0;
-	background-color: #f8f6f6;
+	vertical-align: bottom;
 }

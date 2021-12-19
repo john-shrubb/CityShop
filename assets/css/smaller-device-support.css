@@ -1,0 +1,59 @@
+/*
+	This stylesheet adds support for smaller devices.
+*/
+
+/*
+	Phone compatability
+*/
+
+@media screen and (max-width: 800px) {
+	/*
+		Remove padding on left and right of page.
+	*/
+
+	.page {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+
+	/*
+		Reformat top section to be more mobile friendly.
+		NOT FINAL
+	*/
+
+	.page > .top-section > .links {
+		display: none;
+	}
+
+	.page > .top-section .top-section-text h1 {
+		font-size: 40pt;
+		padding-left: 20px;
+	}
+
+	/*
+		Redo special offer to be more mobile friendly.
+	*/
+
+	.special-offer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.special-offer img {
+		width: 100%;
+	}
+
+	.special-offer .special-offer-text {
+		width: 100%;
+	}
+
+	/*
+		Featured section
+	*/
+
+	.featured .featured-entries {
+		display: flex;
+		flex-direction: column;
+	}
+}
