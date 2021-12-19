@@ -1,0 +1,95 @@
+/*
+	CSS Reset
+	Credit to Meyerweb
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*
+	Fonts
+*/
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Mukta';
+	src: url('../fonts/Mukta-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Nunito';
+	src: url('../fonts/Nunito-VariableFont_wght.ttf');
+}
+
+/*
+	Page padding left and right because apparently that looks cool
+*/
+
+.page {
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+/*
+	Top welcome block of page
+*/
+
+.page > .top-section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.page > .top-section > .top-section-text {
+	font-family: 'Mukta', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 50pt;
+
+	padding-top: 5px;
+}
+
+
+.page > .top-section > .links {
+	display: block;
+	left: 0;
+}
+
+.page > .top-section > .links a {
+	float: right;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	width: 50px;
+
+	background-repeat: no-repeat;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.page > .top-section > .links input[type="text"] {
+	float: right;
+	width: 200px;
+	padding: 15px;
+	margin-top: 10px;
+	margin-right: 20px;
+
+	border: 2px lightgray solid;
+
+	outline: 0;
+
+	font-family: 'Roboto';
+}
