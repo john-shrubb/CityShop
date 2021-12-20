@@ -74,7 +74,7 @@ body {
 
 
 .page > .top-section > .links {
-	align-items: center;
+	justify-content: flex-end;
 	display: block;
 	left: 0;
 	margin-top: auto;
@@ -101,6 +101,41 @@ body {
 	outline: 0;
 
 	font-family: 'Roboto';
+}
+
+.page > .top-section > .links button {
+	display: none;
+
+	font-family: 'Roboto';
+}
+
+/*
+	Links for mobile menu
+*/
+
+.page > .mobileMenuLinks {
+	position: absolute;
+	width: 100%;
+}
+
+.page > .mobileMenuLinks > .links > input[type="text"] {
+	padding: 10px;
+	font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+	width: 100%;
+	box-sizing: border-box;
+	background: rgb(241, 241, 241);
+}
+
+.page > .mobileMenuLinks > .links > a {
+	display: inline-block;
+
+	width: 100%;
+	padding: 10px;
+	font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+	box-sizing: border-box;
+	color: black;
+	text-decoration: none;
+	background: rgb(241, 241, 241);
 }
 
 /*

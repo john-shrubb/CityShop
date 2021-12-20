@@ -6,7 +6,7 @@
 	Phone compatability
 */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 	/*
 		Remove padding on left and right of page.
 	*/
@@ -22,8 +22,19 @@
 		NOT FINAL
 	*/
 
-	.page > .top-section > .links {
+	.page > .top-section > .links > a, .page > .top-section > .links > input[type="text"] {
 		display: none;
+	}
+
+	.page > .top-section > .links > button {
+		display: inline-block;
+		height: 100%;
+		width: 100px;
+		font-size: 20pt;
+	}
+
+	.page > .top-section > .links {
+		margin: 0;
 	}
 
 	.page > .top-section .top-section-text h1 {
