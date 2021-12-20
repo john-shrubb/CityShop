@@ -59,6 +59,89 @@
 		width: 100%;
 	}
 
+	.special-offer .special-offer-text h3 {
+		font-size: 25pt;
+	}
+
+	.special-offer .special-offer-text p {
+		font-size: 15pt;
+	}
+
+	/*
+		Featured section
+	*/
+
+	.featured h2 {
+		font-size: 25pt;
+	}
+
+	.featured .featured-entries {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.featured .featured-entries .featured-entry h3 {
+		font-size: 20pt;
+	}
+}
+
+/*
+	Smaller phone compatability
+*/
+
+@media screen and (max-width: 600px) {
+	/*
+		Remove padding on left and right of page.
+	*/
+
+	.page {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+
+	/*
+		Reformat top section to be more mobile friendly.
+		NOT FINAL
+	*/
+
+	.page > .top-section > .links > a, .page > .top-section > .links > input[type="text"] {
+		display: none;
+	}
+
+	.page > .top-section > .links > button {
+		display: inline-block;
+		height: 100%;
+		width: 100px;
+		font-size: 15pt;
+	}
+
+	.page > .top-section > .links {
+		margin: 0;
+	}
+
+	.page > .top-section .top-section-text h1 {
+		font-size: 30pt;
+		padding-left: 20px;
+	}
+
+	/*
+		Redo special offer to be more mobile friendly.
+	*/
+
+	.special-offer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.special-offer img {
+		width: 100%;
+	}
+
+	.special-offer .special-offer-text {
+		width: 100%;
+	}
+
 	/*
 		Featured section
 	*/

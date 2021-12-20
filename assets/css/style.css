@@ -214,6 +214,7 @@ body {
 .featured .featured-entries .featured-entry p {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	font-size: 15pt;
+	padding-bottom: 10px;
 
 	font-weight: lighter;
 }
