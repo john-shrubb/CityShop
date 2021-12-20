@@ -83,6 +83,10 @@
 	.featured .featured-entries .featured-entry h3 {
 		font-size: 20pt;
 	}
+
+	.featured .featured-entries .featured-entry p {
+		font-size: 14pt;
+	}
 }
 
 /*
@@ -146,8 +150,20 @@
 		Featured section
 	*/
 
+	.featured h2 {
+		font-size: 22pt;
+	}
+
 	.featured .featured-entries {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.featured .featured-entries .featured-entry h3 {
+		font-size: 16pt;
+	}
+
+	.featured .featured-entries .featured-entry p {
+		font-size: 10pt;
 	}
 }
